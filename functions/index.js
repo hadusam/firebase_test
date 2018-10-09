@@ -7,7 +7,7 @@ const app = express()
 app.use(basicAuth('admin', 'test'))
 
 app.get('/auth', (req, res) => {
-  res.redirect('/index.html')
+  res.redirect('/nYqK6icg0gs7iy8O9Qv25eDxLVP9izaYzQjUSGEjCsuqW4mxtfxU9VmSPnJJnJXD/index.html')
 })
 
 exports.app = functions.https.onRequest(app)

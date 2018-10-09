@@ -27,5 +27,3 @@ jobs:
       # deploy
       - run: firebase deploy --project "$FIREBASE_PJ" --token "$FIREBASE_TOKEN"
 
-
-
