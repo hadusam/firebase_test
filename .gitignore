@@ -1,0 +1,6 @@
+# Firebase
+.firebaserc
+.firebase
+
+# Node modules
+node_modules
