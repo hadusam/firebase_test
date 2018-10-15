@@ -12,8 +12,7 @@ app.get('/auth', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-  const url = req.baseUrl
-  res.redirect(secret + url)
+  res.redirect(secret + req.originalUrl)
 })
 
 exports.app = functions.https.onRequest(app)
